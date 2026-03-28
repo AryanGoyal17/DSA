@@ -14,6 +14,7 @@ int main(){
     }
 
 //Time complexity --- O(N(N+1)/2), approximate -- O(N^2)
+//Space complexity --- O(1)
 
     return 0;
 }

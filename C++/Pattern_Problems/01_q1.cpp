@@ -24,6 +24,7 @@ int main(){
 
 //Understanding test cases and online compiler done...
 //Time complexity -- O(N^2)
+//Space complexity -- O(1   )
 
     return 0;
 }
