@@ -32,12 +32,7 @@ int main(){
  
 
     //Loops -- for, while, do-while are same as in C
-
-
-    
-
-
-
+    //For each loop has been covered in 01_vector.cpp in containers and iterators in STL..
 
 
 }
