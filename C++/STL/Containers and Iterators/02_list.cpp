@@ -34,6 +34,8 @@ int main(){
     }
     cout << endl;
 
+     cout << ls1.back() << " " << ls1.front();
+
 //NOTE: -- front ops of list are faster and have less time complexity compared to vector insert operation since list executes
 //         as a doubly linked list......
  

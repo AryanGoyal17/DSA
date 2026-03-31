@@ -178,7 +178,12 @@ int main(){
 
      v0.push_back(1);
 
-     cout << v0.empty();
+     cout << v0.empty() << endl;
+
+     v0.push_back(2);
+
+     cout << v0.back() << " " << v0.front();
+     
 
     return 0;
 }
