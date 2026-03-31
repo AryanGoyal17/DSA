@@ -30,5 +30,9 @@ int main(){
 //NOTE: -- front ops of list are faster and have less time complexity compared to vector insert operation since list executes
 //         as a doubly linked list......
 
+
+
+//Other functions like begin, end, rbegin, rend, clear, insert, size , swap are same as vectors
+
     return 0;
 }
