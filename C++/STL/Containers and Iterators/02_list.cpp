@@ -27,9 +27,16 @@ int main(){
     ls1.emplace_front(); //ls1 = {0, 7, 5, 1, 3} //If we dont give any number in ops like push_front then 0 is taken as the number.
     /////
 
+    ls1.pop_front(); //ls1 = {7, 5, 1, 3}
+
+    for(auto it = ls1.begin(); it != ls1.end(); it++){
+        cout << *(it) << " ";
+    }
+    cout << endl;
+
 //NOTE: -- front ops of list are faster and have less time complexity compared to vector insert operation since list executes
 //         as a doubly linked list......
-
+ 
 
 
 //Other functions like begin, end, rbegin, rend, clear, insert, size , swap are same as vectors
