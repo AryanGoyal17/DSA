@@ -20,6 +20,7 @@ int main(){
     cout << q1.size() << " " << q1.front() << " " << q1.back() << endl;
 
     //size, swap, empty methods same as in stack..
-    
+
+    //top function isnt present in queue..
     return 0;
 }
