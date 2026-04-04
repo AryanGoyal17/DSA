@@ -77,5 +77,10 @@ int main(){
 
     //erase, swap, size, empty same as in other containers...
 
+
+    //NOTE----
+
+    //Time-Complexity of almost all map operations = O(logn)
+
     return 0;
 }
