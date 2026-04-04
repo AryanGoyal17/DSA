@@ -14,5 +14,8 @@ int main(){
 
     multimap <int, int> mm1;
 
+
+    //values cant be accessed using [], since keys are not unique... use insert/emplace for this..
+    
     return 0;
 }
