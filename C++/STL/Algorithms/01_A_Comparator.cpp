@@ -5,10 +5,11 @@ bool comp(pair <int, int> p1, pair <int, int> p2){
 
     if(p1.second < p2.second) return true; //in correct order
     if(p1.second > p2.second) return false; //NOT in correct order..
-    if(p1.first >= p2.first) return true;
+    if(p1.first > p2.first) return true; //Comparators follow strict ordering!
     return false;
 
 }
+
 
 int main(){
 
