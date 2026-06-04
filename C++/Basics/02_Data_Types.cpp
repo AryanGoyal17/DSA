@@ -34,7 +34,8 @@ int main(){
     string s4;
     cout << "Enter your name: ";
     // cin.ignore(); //Flushes the input buffer(only 1 character removed..)
-    cin.ignore(256, '\n');
+    // cin.ignore(256, '\n'); // For flushing the buffer (limit -- 256 characters)
+    cin.ignore(numeric_limits<streamsize>::max(), '\n'); //Clears before even if it has more than 256 characters in it
     getline(cin, s4);
     cout << "Name: " << s4 << endl;
 
