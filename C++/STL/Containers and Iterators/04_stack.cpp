@@ -34,6 +34,8 @@ int main(){
 
     cout << st.empty() << endl; //1 if True, 0 if False..
 
+    // st.front() and st.back() dont exist for stack, they do exist for queue
+
     //Swapping 2 stacks --
 
     stack <int> s1, s2;
