@@ -14,8 +14,9 @@ int main(){
     q1.push(2); //{1,2}
     q1.push(3); //{1,2,3}
     q1.emplace(4); //{1,2,3,4}
-
-    q1.pop(); //{2,3,4}
+    q1.emplace(5); // {1,2,3,4,5}
+    
+    q1.pop(); //{2,3,4,5}
 
     cout << q1.size() << " " << q1.front() << " " << q1.back() << endl;
 
