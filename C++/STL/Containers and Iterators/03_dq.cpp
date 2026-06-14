@@ -4,8 +4,8 @@ using namespace std;
 int main(){
 
     //Dq(deque) == A deque allows to use the bracket operator [] to access elements like in vectors but also has front ops like in list
-
-    //Memory storage in dq, vector, list ... in gemini chat of dsa ... --DONE
+    
+    //Memory storage in dq, vector, list -- added in NOTION
 
     //NOTE: [] operator cant be used in list..
 
