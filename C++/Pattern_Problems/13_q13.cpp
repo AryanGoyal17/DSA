@@ -22,7 +22,8 @@ int main(){
     cin >> N;
     pattern(N);
 
-
+  //Space Complexity -- O(1)
+  //Time Complexity -- O(N^2) [approx]
 
 
     return 0;
