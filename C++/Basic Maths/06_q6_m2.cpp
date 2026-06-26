@@ -1,5 +1,3 @@
-// Print all divisors -- in a sorted manner(ascending)
-
 #include <bits/stdc++.h>
 using namespace std;
 
