@@ -28,6 +28,11 @@
 
 //// For now treat head recursion the same as backtracking
 
+//7--- Recursion patterns
+
+///// Parameterized -- when you want the fn to print the result directly
+///// Functional -- when you want the fn to return the output
+
 //summary -----
 
 //1-- what is recursion
@@ -36,3 +41,4 @@
 //4-- recursion tree
 //5-- recursive call
 //6-- types of recursion and note on backtracking
+//7-- Recursion patterns -- parameterized, functional
