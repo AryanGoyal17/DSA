@@ -13,6 +13,16 @@ int main(){
     cin >> arr[0] >> arr[1] >> arr[2] >> arr[3] >> arr[4];
     cout << arr[4] << endl;
 
+
+    //Swap fn to swap elements--
+
+    swap(arr[0], arr[1]);
+
+    int N = sizeof(arr) / sizeof(arr[0]);
+    for(int j = 0; j < N; j++){
+        cout << arr[j] << " ";
+    }
+    
     //Strings-- contiguous memory allocation
     string s = "Aryan";
     int len1 = s.size(); //To find length of string
@@ -22,7 +32,7 @@ int main(){
     // 
 
     int len2 = sizeof(arr) / sizeof(arr[0]);
-
+    cout << endl;
 
     s[len1 - 1] = 'z';
 
