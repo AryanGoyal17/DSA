@@ -1,6 +1,6 @@
 // Check whether string is palindrome or not----
 
-//Brute force approach(0ms runtime on Leetcode)
+//Optimal approach(0ms runtime on Leetcode)
 
 //Convert all char to lowercase, ignore non - alphanumeric characters--
 
