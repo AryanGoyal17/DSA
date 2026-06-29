@@ -1,5 +1,7 @@
 //Understand recursion by printing something(abc) N times
 
+//m2 - without global variable(1 parameter)
+
 //NOTE: Dont use global variables while solving on leetcode
 
 #include <bits/stdc++.h>

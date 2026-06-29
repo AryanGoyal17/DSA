@@ -1,5 +1,7 @@
 //Understand recursion by printing something(abc) N times
 
+//m1-- with global variable
+
 #include <bits/stdc++.h>
 using namespace std;
 
