@@ -32,6 +32,8 @@
 
 ///// Parameterized -- when you want the fn to print the result directly
 ///// Functional -- when you want the fn to return the output
+///// 2 pointer and 1 pointer approach -- used while working with arrays/strings
+///// Multiple recursion calls -- used in fibonacci question
 
 //summary -----
 
@@ -41,4 +43,4 @@
 //4-- recursion tree
 //5-- recursive call
 //6-- types of recursion and note on backtracking
-//7-- Recursion patterns -- parameterized, functional
+//7-- Recursion patterns -- parameterized, functional, 2-pointer, 1-pointer, Multiple recursion calls
