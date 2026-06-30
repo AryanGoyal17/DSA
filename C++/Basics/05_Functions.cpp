@@ -43,6 +43,7 @@ cout << "Minimum: " << result << endl;
 //In pass by reference(except for arrays!) -- The function operates on the original variable.. in parameter of function attach an &(address of) before variable name..
 
 //Arrays are passed by reference by default...
+//Strings are not passed by reference.
 
 int n;
 
