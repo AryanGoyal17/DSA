@@ -44,6 +44,7 @@ cout << "Minimum: " << result << endl;
 
 //Arrays are passed by reference by default...
 //Strings are not passed by reference.
+//STL containers are not passed by reference!!
 
 int n;
 
