@@ -1,4 +1,4 @@
-// Bubble Sort -- 
+// Bubble Sort -- push the max[for asc order]/min[for desc order] to the last by adjacent swaps
 
 #include <bits/stdc++.h>
 using namespace std;
