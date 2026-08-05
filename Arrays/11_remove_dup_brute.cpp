@@ -33,7 +33,7 @@ int main(){
     }
 
     cout << endl;
-    cout << "Num of duplicates = " << k << endl;
+    cout << "Num of unique elements = " << k << endl;
 
     //Time complexity = O(N*logN) + O(N)
     //Space complexity = O(N) [creating a new set]
