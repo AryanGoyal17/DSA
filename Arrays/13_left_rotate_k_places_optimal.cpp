@@ -1,4 +1,5 @@
 // Left rotate array by k places -- Optimal solution
+// Right rotate is done in Leetcode #189
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -21,8 +22,9 @@ using namespace std;
 
 void rotateKplace(vector <int> &v1, int k, int N){
 
-    if(N == 0 || k == 0) return;
+    if(N == 0) return;
     k = k % N;
+    if(k == 0) return;
     
     reverse(v1.begin(), v1.begin() + k);
     reverse(v1.begin() + k, v1.end());
