@@ -1,4 +1,4 @@
-// Infix to postfix conversion
+// Infix to prefix conversion
 
 #include <bits/stdc++.h>
 using namespace std;
